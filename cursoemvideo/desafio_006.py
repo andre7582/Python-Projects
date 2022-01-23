@@ -1,0 +1,11 @@
+print('====== Desafio 006 ======')
+# Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+# n = int(input('Digite um número: '))
+# d = int(n + n)
+# t = int(n * 3)
+# r = int(n ** 2)
+# print('O dobro do número que você escolheu é o {}.'.format(d))
+# print('E o seu triplo é o número {}.'.format(t))
+# print('E a sua raiz quadrada é {}.'.format(r))
+n = int(input('Digite um número: '))
+print('O dobro de {} é {}, seu triplo é {} e sua raiz quadrada é igual a {:.1f}.'.format(n, (n*2), (n*3), (n ** (1/2))))
